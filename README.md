@@ -5,15 +5,21 @@ This repository contains a Simulink model of a simplified power plant system. Th
 - Multiple versions of the plant model (`.slx` files)
 - Scripts to initialize and prepare simulations (`.m` files)
 
-## 🔧 Inputs
+## Inputs
 
 - Fuel-air mixture supply signal 
 - Governor Valve opening 
 
-## 📤 Outputs
+## Outputs
 
 - `ms`: Mass flow of superheated steam to the turbine (`[kg/s]`)
 - `PD`: Saturated steam pressure in the boiler
+
+## Requirements
+
+- MATLAB 2023b or MATLAB Online editor with SIMULINK
+- Control System Toolbox
+- Model Predictive Control Toolbox (for MPC model)
 
 ---
 
