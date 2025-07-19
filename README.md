@@ -18,6 +18,8 @@ This repository contains a Simulink model of a simplified power plant system. Th
 ---
 
 ## 📁 Repository Structure
+
+```bash
 /models
 │
 ├── MPC_control.slx # Model with MPC control loop
